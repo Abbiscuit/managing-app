@@ -1,0 +1,25 @@
+.btn {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 3px;
+  display: inline-block;
+  min-width: 50px;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: rgb(60, 63, 248);
+  box-shadow: 1px 1px 1px rgba(black, 0.2);
+
+  &.light {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  &.dark {
+    color: inherit;
+    font-weight: 600;
+  }
+
+  &:hover {
+    background-color: rgba(60, 63, 248, 0.8);
+  }
+}

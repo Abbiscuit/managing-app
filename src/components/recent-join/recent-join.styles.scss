@@ -1,0 +1,19 @@
+.recent-join {
+  background-color: #fff;
+  box-shadow: 1px 1px 6px rgba(black, 0.2);
+  margin: 0 2.5% 20px;
+
+  padding: 20px;
+  width: 55%;
+
+  &__title {
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+}

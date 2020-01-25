@@ -1,0 +1,12 @@
+.employees {
+  background-color: #fff;
+  box-shadow: 1px 1px 6px rgba(black, 0.2);
+  margin: 0 2.5% 20px;
+  padding: 20px;
+  width: 35%;
+
+  &__count-title {
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+}

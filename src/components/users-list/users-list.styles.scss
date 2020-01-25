@@ -1,0 +1,18 @@
+.users-list {
+  background-color: #fff;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  height: 150px;
+  margin-bottom: 20px;
+
+  &__name {
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__detail-btn > a {
+    text-decoration: none;
+    color: rgba(black, 0.7);
+  }
+}

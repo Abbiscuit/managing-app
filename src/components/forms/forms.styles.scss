@@ -1,0 +1,21 @@
+.form {
+  .add-form {
+    .form__inputfield {
+      margin: 20px auto;
+
+      label {
+        margin-right: 5px;
+      }
+
+      input {
+        padding: 5px;
+        font-size: 18px;
+        width: 100%;
+      }
+    }
+  }
+
+  &__alert {
+    margin-bottom: 10px;
+  }
+}
